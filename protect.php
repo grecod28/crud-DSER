@@ -6,6 +6,7 @@ session_start();
 
 if ( !isset( $_SESSION['user'] ) ) {
     // Redirect them to the login page
-    header("Location: /login.php");
+    header("Location: http://localhost/php/MySQL/Mi%20crud/login.php");
+    exit;
 }
 ?>
